@@ -1,3 +1,153 @@
-p {
-  font-family: Lato;
+section#page{
+  width: 100vw;
+  height: 100vh;
+  text-transform: uppercase;
+  background-image: url("../assets/images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+section#page .wrapper{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  max-width: 750px;
+}
+
+section#page .wrapper .subject{
+  font-size: 28px;
+  padding: 20px 25px;
+  margin-bottom: 15px;
+  background-color: rgba(46,3,71,0.8);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0px 0px 3px white;
+}
+
+section#page .wrapper .subject span{
+  color: #3fdbd4;
+  font-weight: 600;
+  text-shadow: 0px 0px 6px #3fdbd4;
+}
+
+section#page .wrapper .message{
+  font-size: 24px;
+  padding: 30px 25px;
+  background-color: rgba(16,2,36,0.6);
+  text-shadow: 0px 0px 3px white;
+}
+
+section#page .wrapper .message .header{
+  font-weight: 600;
+  font-size: 34px;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 6px white;
+}
+
+section#page .wrapper .message .end-text{
+  font-weight: 500;
+  font-size: 34px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 4px white;
+}
+
+
+section#page .wrapper .message .eclick-logo img{
+  margin-left: -15px;
+  max-width: 240px;
+}
+
+@media (max-width: 1050px){
+  section#page .wrapper{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+  }
+}
+
+@media (max-width: 767px){
+  section#page .wrapper{
+    width: 90%;
+  }
+
+  section#page .wrapper .subject{
+    font-size: 18px;
+  }
+
+  section#page .wrapper .message{
+    font-size: 18px;
+  }
+
+  section#page .wrapper .message .header{
+    font-size: 22px;
+  }
+
+  section#page .wrapper .message .end-text{
+    font-size: 28px;
+  }
+
+}
+
+@media (max-width: 413px){
+  section#page .wrapper{
+    width: 90%;
+  }
+
+
+  section#page .wrapper .message{
+    font-size: 18px;
+  }
+
+  section#page .wrapper .message .header{
+    font-size: 24px;
+  }
+
+  section#page .wrapper .message .end-text{
+    font-size: 26px;
+  }
+
+}
+
+@media (max-width: 350px){
+  section#page .wrapper{
+    width: 90%;
+  }
+
+  section#page .wrapper .subject{
+    font-size: 14px;
+  }
+
+  section#page .wrapper .message{
+    font-size: 14px;
+  }
+
+  section#page .wrapper .message .header{
+    font-size: 16px;
+  }
+
+  section#page .wrapper .message .end-text{
+    font-size: 22px;
+  }
+
+}
+
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
