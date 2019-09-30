@@ -27,13 +27,13 @@ body{
 }
 @font-face {
     font-family: 'AdventPro';
-    src: url("assets/fonts/AdventPro-Regular.ttf") format('truetype');
+    src: url("https://eclick.app/microsites/xmas/fonts/AdventPro-Regular.ttf") format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'AdventPro';
-    src: url("assets/fonts/AdventPro-Medium.ttf") format('truetype');
+    src: url("https://eclick.app/microsites/xmas/fonts/AdventPro-Medium.ttf") format('truetype');
     font-weight: 500;
 }
 
@@ -45,6 +45,8 @@ body{
 
 @font-face {
     font-family: 'AdventPro';
-    src: url("assets/fonts/AdventPro-Bold.ttf") format('truetype');
+    src: url("https://eclick.app/microsites/xmas/fonts/AdventPro-Bold.ttf") format('truetype');
     font-weight: 700;
 }
+
+

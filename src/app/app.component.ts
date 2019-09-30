@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {browser} from "protractor";
 
 @Component({
   selector: 'my-app',
